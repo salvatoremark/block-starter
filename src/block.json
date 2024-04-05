@@ -1,0 +1,76 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "smark/block-starter",
+  "version": "0.1.0",
+  "title": "Block Starter",
+  "category": "text",
+  "icon": "smiley",
+  "description": "Set of starter files to develop WordPress blocks scaffolded by create-block and customized to personal preferences.",
+  "supports": {
+    "html": false,
+    "align": true,
+    "color": {
+      "background": true,
+      "text": true
+    },
+    "spacing": {
+      "padding": true,
+      "margin": false
+    }
+  },
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": "full"
+    },
+    "style": {
+      "type": "object",
+      "padding": {
+        "top": "1em",
+        "right": "1em",
+        "bottom": "1em",
+        "left": "1em"
+      },
+      "default": {
+        "color": {
+          "background": "#F9F9F9"
+        }
+      }
+    },
+    "textinput": {
+      "type": "string",
+      "default": "Write to me!",
+      "source": "text",
+      "selector": "div"
+    },
+    "styleclass": {
+      "type": "string",
+      "default": "someclass"
+    },
+    "textalign": {
+      "type": "string",
+      "default": "center"
+    },
+    "fontsize": {
+      "type": "number",
+      "default": 5
+    }
+  },
+
+  "example": {
+    "attributes": {
+      "input": "Starter Text",
+      "class": "someclass",
+      "size": 8
+    },
+    "style": {
+      "padding": "1em"
+    }
+  },
+  "textdomain": "smark",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "script": "file:./script.js"
+}
