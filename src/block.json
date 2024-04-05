@@ -6,7 +6,7 @@
   "title": "Block Starter",
   "category": "text",
   "icon": "smiley",
-  "description": "Set of starter files to develop WordPress blocks scaffolded by create-block and customized to personal preferences.",
+  "description": "Set of starter files originally scaffolded by create-block then customized to personal preferences for building WordPress blocks.",
   "supports": {
     "html": false,
     "align": true,
