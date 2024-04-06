@@ -13,10 +13,10 @@ function Save(props) {
   const { attributes, setAttributes } = props;
   const inlineStyles = {
     color: "#ff6600",
-    fontSize: "4em",
+    fontSize: "5vw",
   };
   const blockProps = useBlockProps.save({
-    className: "classname1 classname2",
+    className: "custom-class",
     style: inlineStyles,
   });
 

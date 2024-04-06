@@ -1,7 +1,7 @@
 {
   "name": "block-starter",
   "version": "0.1.0",
-  "description": "Set of starter files originally scaffolded by create-block then customized to personal preferences for building WordPress blocks.",
+  "description": "Set of starter files originally scaffolded by create-block, then customized to personal preferences for building WordPress blocks.",
   "author": "Mark Salvatore",
   "license": "GPL-2.0-or-later",
   "main": "build/index.js",

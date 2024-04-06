@@ -6,7 +6,7 @@
   "title": "Block Starter",
   "category": "text",
   "icon": "smiley",
-  "description": "Set of starter files originally scaffolded by create-block then customized to personal preferences for building WordPress blocks.",
+  "description": "Set of starter files originally scaffolded by create-block, then customized to personal preferences for building WordPress blocks.",
   "supports": {
     "html": false,
     "align": true,
@@ -44,10 +44,6 @@
       "source": "text",
       "selector": "div"
     },
-    "styleclass": {
-      "type": "string",
-      "default": "someclass"
-    },
     "textalign": {
       "type": "string",
       "default": "center"
@@ -60,12 +56,8 @@
 
   "example": {
     "attributes": {
-      "input": "Starter Text",
-      "class": "someclass",
-      "size": 8
-    },
-    "style": {
-      "padding": "1em"
+      "textinput": "Starter Text",
+      "fontsize": 8
     }
   },
   "textdomain": "smark",

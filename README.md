@@ -5,7 +5,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Set of starter files to develop WordPress blocks scaffolded by create-block and customized to personal preferences.
+Set of starter files originally scaffolded by create-block, then customized to personal preferences for building WordPress blocks.
 
 == Installation ==
 
@@ -22,8 +22,6 @@ Set of starter files to develop WordPress blocks scaffolded by create-block and 
 11. > git push -u origin main
 12. Activate your new plugin through the 'Plugins' screen in WordPress.
 
-== Installation for the block created by this plugin ==
+== Maintainence ==
 
-1. Clone into your WordPress plugins folder. You can also upload the plugin archive to the "/wp-content/plugins/shadow-me" directory or install the plugin through the WordPress plugins screen directly.
-
-2. Activate the plugin through the 'Plugins' screen in WordPress.
+Mark Salvatore

@@ -4,7 +4,8 @@
  */
 
 .wp-block-smark-block-starter {
+  white-space: nowrap;
+  max-width: none;
   text-align: center;
   border: 3px dotted #ccc;
-  max-width: none;
 }

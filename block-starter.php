@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Block Starter
- * Description:       Set of starter files to develop WordPress blocks. Originally scaffolded by create-block then customized to personal preferences.
+ * Description:       Set of starter files originally scaffolded by create-block, then customized to personal preferences for building WordPress blocks.
  * Requires at least: 6.1
  * Requires PHP:      7.0
  * Version:           0.1.0
